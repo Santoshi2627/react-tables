@@ -18,12 +18,12 @@ export function Sample() {
             <td>20</td>
             <td>hyd</td>
           </tr>
-          <tr>
+          <tr style={styles.container}>
             <td>Stuart little</td>
             <td>21</td>
             <td>mumbai</td>
           </tr>
-          <tr>
+          <tr style={styles.container}>
             <td>Bliss smurf</td>
             <td>22</td>
             <td>bangalore</td>
@@ -32,5 +32,10 @@ export function Sample() {
       </table>
     </div>
   );
+}
+const styles={
+  container:{
+    border:"2px solid"
+}
 }
 // export default Sample;
